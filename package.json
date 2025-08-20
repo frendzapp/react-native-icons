@@ -1,9 +1,12 @@
 {
-	"name": "@frendz/react-native-icons",
+	"name": "@frendzapp/react-native-icons",
 	"description": "The frendz open source NPM icon library",
-	"version": "0.0.3",
+	"version": "0.0.2",
 	"author": "frendz",
 	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
 	"type": "commonjs",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -11,8 +14,9 @@
 		"dist"
 	],
 	"dependencies": {
-		"react-native-svg": "^15.12.1",
-		"react-native-svg-transformer": "^1.5.1"
+		"react": "^19.1.1",
+		"react-native": "^0.80.2",
+		"react-native-svg": "^15.12.1"
 	},
 	"devDependencies": {
 		"@types/react": "^19.1.10",
