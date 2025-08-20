@@ -7,7 +7,7 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"type": "commonjs",
+	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/types/index.d.ts",
 	"files": [
