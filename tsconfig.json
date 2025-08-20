@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+		// language & module
+		"target": "es6",
+		"module": "esnext",
+		"jsx": "react-native",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+
+		// output
+		"declaration": true,
+		"declarationDir": "./dist/types",
+		"outDir": "./dist",
+
+		// module interop
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+
+		// strictness
+		"strict": true,
+		"skipLibCheck": true,
+
+		// paths
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}
