@@ -1,7 +1,7 @@
 {
 	"name": "@frendzapp/react-native-icons",
 	"description": "The frendz open source NPM icon library",
-	"version": "0.1.1",
+	"version": "0.1.0",
 	"author": "frendz",
 	"license": "MIT",
 	"publishConfig": {
@@ -27,6 +27,7 @@
 		"typescript": "^5.9.2"
 	},
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"publish": "npm run build && npm publish --access public"
 	}
 }
