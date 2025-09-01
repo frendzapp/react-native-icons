@@ -14,9 +14,9 @@
 		"dist"
 	],
 	"peerDependencies": {
-		"react": ">=19",
-		"react-native": ">=0.80",
-		"react-native-svg": ">=15"
+		"react": ">=18",
+		"react-native": ">=0.72",
+		"react-native-svg": ">=13"
 	},
 	"devDependencies": {
 		"react": "^19.1.1",
