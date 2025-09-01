@@ -1,8 +1,9 @@
 // packages
-import { GestureResponderEvent as GestureResponderEventT } from 'react-native';
+import { GestureResponderEvent, StyleProp, ViewStyle } from 'react-native';
 
 export interface Parameters {
-	size: number;
-	color: string;
-	onPress: (event: GestureResponderEventT) => void;
+	size?: number;
+	color?: string;
+	style?: StyleProp<ViewStyle>;
+	onPress?: (event: GestureResponderEvent) => void;
 }
