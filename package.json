@@ -13,12 +13,15 @@
 	"files": [
 		"dist"
 	],
-	"dependencies": {
-		"react": "^19.1.1",
-		"react-native": "^0.80.2",
-		"react-native-svg": "^15.12.1"
+	"peerDependencies": {
+		"react": ">=19",
+		"react-native": ">=0.80",
+		"react-native-svg": ">=15"
 	},
 	"devDependencies": {
+		"react": "^19.1.1",
+		"react-native": "^0.80.2",
+		"react-native-svg": "^15.12.1",
 		"@types/react": "^19.1.10",
 		"@types/react-native": "^0.72.8",
 		"typescript": "^5.9.2"
