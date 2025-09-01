@@ -28,6 +28,6 @@
 	},
 	"scripts": {
 		"build": "tsc",
-		"publish": "npm run build && npm publish --access public"
+		"release": "npm run build && npm publish --access public"
 	}
 }
