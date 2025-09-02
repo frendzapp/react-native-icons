@@ -4,6 +4,10 @@
 	"version": "1.2.0",
 	"author": "frendz",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/frendzapp/react-native-icons.git"
+	},
 	"publishConfig": {
 		"access": "public"
 	},
