@@ -80,7 +80,6 @@ The example above shows a counter app where the value increases by 1 each time t
 
 ## All icons
 
-| ArrowLeftIcon                         | ArrowRightIcon                          |
+| ArrowLeftIcon 12x16                   | ArrowRightIcon 12x16                    |
 | ------------------------------------- | --------------------------------------- |
 | ![ArrowLeft](./assets/arrow-left.svg) | ![ArrowRight](./assets/arrow-right.svg) |
-| Rectangle horizontal (12x16)          | Rectangle horizontal (12x16)            |
