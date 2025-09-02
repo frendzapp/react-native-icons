@@ -1,7 +1,7 @@
 {
 	"name": "@frendzapp/react-native-icons",
 	"description": "The frendz open source NPM icon library",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"author": "frendz",
 	"license": "MIT",
 	"repository": {
